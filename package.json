@@ -1,0 +1,13 @@
+{
+	"name": "intro-section-with-dropdown-navigation-main",
+	"description": "![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)",
+	"version": "1.0.0",
+	"main": "index.html",
+	"dependencies": {
+		"bootstrap": "^5.3.0"
+	},
+	"scripts": {},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}

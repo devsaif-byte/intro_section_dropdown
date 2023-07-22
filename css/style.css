@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+:root {
+	/* variables */
+	--almost-white: hsl(0, 0%, 98%);
+	--medium-gray: hsl(0, 0%, 41%);
+	--almost-black: hsl(0, 0%, 8%);
+	--paragraph-size: 18px;
+
+	/* screens */
+	--mobile: 375px;
+	--desktop: 1440px;
+
+	/* utilities */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Epilogue", sans-serif;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+.navbar-brand {
+	font-size: 5rem;
+}
+ul,
+li {
+	margin: 0 1rem;
+}
+.offcanvas-body {
+	margin-left: 10rem;
+}
+.hero-heading {
+	font-size: 5rem;
+	font-weight: bolder;
+}
+
+.paragraph {
+	display: block;
+	font-size: var(--paragraph-size);
+	margin: 3rem 0;
+}
+.navbar-collapse {
+	margin-left: 8rem;
+}
+.btn-login {
+	margin-right: 2.5rem;
+}
